@@ -8,10 +8,10 @@ manual_seed: 0
 # dataset and data loader settings
 datasets:
   train:
-    name: DIV2K
+    name: TrainedSet
     type: PairedImageDataset
-    dataroot_gt: /content/BasicSR/datasets/Training_GT
-    dataroot_lq: /content/BasicSR/datasets/Training_LR
+    dataroot_gt: datasets/Training_GT
+    dataroot_lq: datasets/Training_LR
     # (for lmdb)
     # dataroot_gt: datasets/DIV2K/DIV2K_train_HR_sub.lmdb
     # dataroot_lq: datasets/DIV2K/DIV2K_train_LR_bicubic_X4_sub.lmdb
@@ -33,10 +33,10 @@ datasets:
     prefetch_mode: ~
 
   val:
-    name: Set5
+    name: EvalSet
     type: PairedImageDataset
-    dataroot_gt: /content/BasicSR/datasets/Eval_GT
-    dataroot_lq: /content/BasicSR/datasets/Eval_LR
+    dataroot_gt: datasets/Eval_GT
+    dataroot_lq: datasets/Eval_LR
     io_backend:
       type: disk
 

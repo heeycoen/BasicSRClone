@@ -20,6 +20,7 @@ class BaseModel():
         self.is_train = opt['is_train']
         self.schedulers = []
         self.optimizers = []
+        print(self.opt['path']['models'])
 
     def feed_data(self, data):
         pass
