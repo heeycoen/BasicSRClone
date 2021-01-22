@@ -1,56 +1,4 @@
-# :rocket: BasicSR
-
-[English](README.md) **|** [简体中文](README_CN.md) &emsp; [GitHub](https://github.com/xinntao/BasicSR) **|** [Gitee码云](https://gitee.com/xinntao/BasicSR)
-
-<a href="https://drive.google.com/drive/folders/1G_qcpvkT5ixmw5XoN6MupkOzcK1km625?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" height="18" alt="google colab logo"></a> Google Colab: [GitHub Link](colab) **|** [Google Drive Link](https://drive.google.com/drive/folders/1G_qcpvkT5ixmw5XoN6MupkOzcK1km625?usp=sharing) <br>
-:m: [Model Zoo](docs/ModelZoo.md) :arrow_double_down: Google Drive: [Pretrained Models](https://drive.google.com/drive/folders/15DgDtfaLASQ3iAPJEVHQF49g9msexECG?usp=sharing) **|** [Reproduced Experiments](https://drive.google.com/drive/folders/1XN4WXKJ53KQ0Cu0Yv-uCt8DZWq6uufaP?usp=sharing)
-:arrow_double_down: 百度网盘: [预训练模型](https://pan.baidu.com/s/1R6Nc4v3cl79XPAiK0Toe7g) **|** [复现实验](https://pan.baidu.com/s/1UElD6q8sVAgn_cxeBDOlvQ) <br>
-:file_folder: [Datasets](docs/DatasetPreparation.md) :arrow_double_down: [Google Drive](https://drive.google.com/drive/folders/1gt5eT293esqY0yr1Anbm36EdnxWW_5oH?usp=sharing) :arrow_double_down: [百度网盘](https://pan.baidu.com/s/1AZDcEAFwwc1OC3KCd7EDnQ) (提取码:basr)<br>
-:chart_with_upwards_trend: [Training curves in wandb](https://app.wandb.ai/xintao/basicsr) <br>
-:computer: [Commands for training and testing](docs/TrainTest.md) <br>
-:zap: [HOWTOs](#zap-howtos)
-
----
-
-BasicSR (**Basic** **S**uper **R**estoration) is an open source **image and video restoration** toolbox based on PyTorch, such as super-resolution, denoise, deblurring, JPEG artifacts removal, *etc*.<br>
-<sub>([ESRGAN](https://github.com/xinntao/ESRGAN), [EDVR](https://github.com/xinntao/EDVR), [DNI](https://github.com/xinntao/DNI), [SFTGAN](https://github.com/xinntao/SFTGAN))</sub>
-<sub>([HandyView](https://github.com/xinntao/HandyView), [HandyFigure](https://github.com/xinntao/HandyFigure), [HandyCrawler](https://github.com/xinntao/HandyCrawler), [HandyWriting](https://github.com/xinntao/HandyWriting))</sub>
-
-## :sparkles: New Features
-
-- Nov 29, 2020. Add **ESRGAN** and **DFDNet** [colab demo](colab).
-- Sep 8, 2020. Add **blind face restoration** inference codes: [DFDNet](https://github.com/csxmli2016/DFDNet).
-- Aug 27, 2020. Add **StyleGAN2 training and testing** codes: [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch).
-
-<details>
-  <summary>More</summary>
-<ul>
-  <li> Sep 8, 2020. Add <b>blind face restoration</b> inference codes: <b>DFDNet</b>. <br> <i><font color="#DCDCDC">ECCV20: Blind Face Restoration via Deep Multi-scale Component Dictionaries</font></i> <br> <i><font color="#DCDCDC">Xiaoming Li, Chaofeng Chen, Shangchen Zhou, Xianhui Lin, Wangmeng Zuo and Lei Zhang</font></i> </li>
-  <li> Aug 27, 2020. Add <b>StyleGAN2</b> training and testing codes. <br> <i><font color="#DCDCDC">CVPR20: Analyzing and Improving the Image Quality of StyleGAN</font></i> <br> <i><font color="#DCDCDC">Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen and Timo Aila</font></i> </li>
-  <li>Aug 19, 2020. A <b>brand-new</b> BasicSR v1.0.0 online.</li>
-</ul>
-</details>
-
-## :zap: HOWTOs
-
-We provides simple pipelines to train/test/inference models for quick start.
-These pipelines/commands cannot cover all the cases and more details are in the following sections.
-
-| GAN |  |  |  | | |
-| :--- | :---:        |     :---:      | :--- | :---:        |     :---:      |
-| StyleGAN2   | [Train](docs/HOWTOs.md#How-to-train-StyleGAN2) | [Inference](docs/HOWTOs.md#How-to-inference-StyleGAN2) | | | |
-| **Face Restoration** |  |  |  | | |
-| DFDNet | - | [Inference](docs/HOWTOs.md#How-to-inference-DFDNet) | | | |
-| **Super Resolution** |  |  |  | | |
-| ESRGAN | *TODO* | *TODO* | SRGAN | *TODO* | *TODO*|
-| EDSR | *TODO* | *TODO* | SRResNet | *TODO* | *TODO*|
-| RCAN | *TODO* | *TODO* |  |  | |
-| EDVR | *TODO* | *TODO* | DUF | - | *TODO* |
-| BasicVSR | *TODO* | *TODO* | TOF | - | *TODO* |
-| **Deblurring** |  |  |  | | |
-| DeblurGANv2 | - | *TODO* |  | | |
-| **Denoise** |  |  |  | | |
-| RIDNet | - | *TODO* | CBDNet | - | *TODO*|
+This is a clone of the BasicSR repo https://github.com/xinntao/BasicSR.git. Used for a University project.
 
 ## :wrench: Dependencies and Installation
 
@@ -61,7 +9,7 @@ These pipelines/commands cannot cover all the cases and more details are in the 
 1. Clone repo
 
     ```bash
-    git clone https://github.com/xinntao/BasicSR.git
+    git clone 
     ```
 
 1. Install dependent packages
